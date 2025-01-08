@@ -1,6 +1,6 @@
 
 .parent {
-    background-color: #fb00b4;
+    background-color: #fb9200;
     color: #fff;
     display: grid;
    /* width: 90%;*/
@@ -115,6 +115,14 @@
     height: auto;
 }
 
+.div3 img {
+    max-width: 575px;
+    max-height: 575px;
+    width: auto;
+    height: auto;
+}
+
+
 .div5 img {
     max-width: 100%;
     max-height: 100%;
@@ -128,6 +136,14 @@
     width: auto;
     height: auto;
 }
+
+.div7 img {
+    max-width: 350px;
+    max-height: 350px;
+    width: auto;
+    height: auto;
+}
+
 
 .div8 img {
     max-width: 370px;

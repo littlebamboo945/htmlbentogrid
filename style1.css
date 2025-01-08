@@ -64,6 +64,14 @@
     grid-row-start: 3;
 }
 
+.div8 {
+    background-color: #e4fffb;
+    grid-column: span 2 / span 2;
+    grid-row: span 4 / span 4;
+    grid-column-start: 11;
+    grid-row-start: 3;
+}
+
 .parent div {
     
     border-radius: 10px;
@@ -100,6 +108,20 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
+.gallery img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+
 .div1 img {
     max-width: 500px;
     max-height: 500px;
@@ -107,10 +129,46 @@
     height: auto;
 }
 
-.div6 img {
-    max-width: 100%;
+.div3 a img {
+    max-width: 500px;
     max-height: 500px;
     width: auto;
     height: auto;
 }
 
+.div4 a img {
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+}
+
+.div5 img {
+    max-width: 500px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+}
+
+
+
+.div6 img {
+    max-width: 100%;
+    max-height: 490px;
+    width: auto;
+    height: auto;
+}
+
+.div7  img {
+    max-width: 400px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+}
+
+.div8 a img {
+    max-width: 527px;
+    max-height: 527px;
+    width: auto;
+    height: auto;
+}

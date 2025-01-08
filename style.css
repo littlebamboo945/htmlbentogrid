@@ -1,0 +1,57 @@
+/* 重設預設樣式 */
+
+.parent {
+    background-color: #0066cc;
+    color: #fff;
+    display: grid;
+    width: 90%;
+    max-width: 1920px;
+    max-height: 1080px;
+    padding: 20px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 100px;
+}
+    
+.div1 {
+    grid-column: span 4 / span 4;
+    grid-row: span 3 / span 3;
+}
+
+.div2 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 5;
+}
+
+.div3 {
+    grid-column: span 4 / span 4;
+    grid-row: span 2 / span 2;
+    grid-column-start: 7;
+}
+
+.div4 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 11;
+}
+
+.div5 {
+    grid-column: span 4 / span 4;
+    grid-row: span 3 / span 3;
+    grid-row-start: 4;
+}
+
+.div6 {
+    grid-column: span 4 / span 4;
+    grid-row: span 4 / span 4;
+    grid-column-start: 5;
+    grid-row-start: 3;
+}
+
+.div7 {
+    grid-column: span 4 / span 4;
+    grid-row: span 4 / span 4;
+    grid-column-start: 9;
+    grid-row-start: 3;
+}
